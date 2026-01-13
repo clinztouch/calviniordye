@@ -70,6 +70,16 @@ header {
     animation: fadeIn 1.2s ease forwards;
 }
 
+.picture {
+  width: 180px;            
+  height: 180px;
+  border-radius: 50%;       
+  border: 4px solid #c7530b; 
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); 
+  display: block;          
+  margin: 24px auto 0;      
+}
 .hero-white {
     color: #fdfbf9;
     animation: heroSlideUp 1s ease forwards;
